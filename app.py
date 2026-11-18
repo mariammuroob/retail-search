@@ -3,10 +3,7 @@
 from __future__ import annotations
 
 import html
-import json
-import os
 import sqlite3
-import urllib.request
 from pathlib import Path
 from typing import Any
 
@@ -91,7 +88,6 @@ def inject_css() -> None:
         .metric-strip { background:#fff; border:1px solid var(--line); border-radius:12px; display:flex; justify-content:space-around; margin-top:1.2rem; padding:.8rem; }
         .metric { color:var(--muted); font-size:.7rem; text-align:center; }
         .metric strong { color:var(--ink); display:block; font-size:.95rem; margin-bottom:.15rem; }
-        .ai-note { color:#7A8088; font-size:.7rem; margin:.6rem 0 0; }
         </style>
         """,
         unsafe_allow_html=True,
@@ -126,10 +122,10 @@ def load_resources() -> tuple[sqlite3.Connection, Any, Any, np.ndarray]:
     return connection, model, index, ids
 
 
-def result_card(item: dict[str, Any], found_by_meaning: bool = False, explanation: str | None = None) -> str:
+def result_card(item: dict[str, Any], found_by_meaning: bool = False) -> str:
     title = html.escape(str(item["title"]))
     category = html.escape(str(item["category"]))
-    why = html.escape(explanation or str(item["why_matched"]))
+    why = html.escape(str(item["why_matched"]))
     stock = int(item["stock"])
     stock_text = f"In stock · {stock}" if stock else "Out of stock"
     stock_class = "in" if stock else "out"
@@ -145,40 +141,6 @@ def result_card(item: dict[str, Any], found_by_meaning: bool = False, explanatio
       <div class="why">{why}</div>
     </div>
     """
-
-
-def get_groq_key() -> str | None:
-    try:
-        return st.secrets.get("GROQ_API_KEY") or os.getenv("GROQ_API_KEY")
-    except Exception:
-        return os.getenv("GROQ_API_KEY")
-
-
-def groq_explanations(items: list[dict[str, Any]], api_key: str) -> dict[int, str]:
-    """Ask Groq once for grounded one-line explanations; failures are intentionally silent."""
-    payload_items = [
-        {key: item[key] for key in ("id", "title", "description", "price", "category")}
-        for item in items
-    ]
-    body = {
-        "model": "llama-3.1-8b-instant",
-        "temperature": 0,
-        "response_format": {"type": "json_object"},
-        "messages": [
-            {"role": "system", "content": "Return only JSON: an object whose string keys are product ids and values are one short factual explanation. Use only the supplied product fields. Never add facts."},
-            {"role": "user", "content": json.dumps({"products": payload_items})},
-        ],
-    }
-    request = urllib.request.Request(
-        "https://api.groq.com/openai/v1/chat/completions",
-        data=json.dumps(body).encode("utf-8"),
-        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
-        method="POST",
-    )
-    with urllib.request.urlopen(request, timeout=5) as response:
-        content = json.loads(response.read().decode("utf-8"))["choices"][0]["message"]["content"]
-    parsed = json.loads(content)
-    return {int(key): str(value) for key, value in parsed.items() if str(key).isdigit() and isinstance(value, str)}
 
 
 def render_empty(suggestion: str | None) -> None:
@@ -200,9 +162,6 @@ def main() -> None:
         st.session_state.query_input = ""
     if "run_search" not in st.session_state:
         st.session_state.run_search = False
-    if "ai_cache" not in st.session_state:
-        st.session_state.ai_cache = {}
-
     st.markdown('<div class="hero"><div class="eyebrow">Search intelligence lab</div><h1>Retail Search Intelligence</h1><p>Keyword vs semantic vs hybrid search, side by side.</p></div>', unsafe_allow_html=True)
     with st.container():
         st.markdown('<div class="search-row">', unsafe_allow_html=True)
@@ -225,7 +184,6 @@ def main() -> None:
         max_price_slider = st.slider("Max price", min_value=3, max_value=120, value=120, step=1, format="$%d")
         category = st.selectbox("Category", CATEGORIES)
         in_stock_only = st.toggle("In stock only", value=True)
-        ai_enabled = st.toggle("AI explanations (Groq)", value=False)
         clean_query, parsed_price = search.parse_query(st.session_state.query_input)
         if parsed_price is not None:
             st.markdown(f'<span class="price-pill">Detected: under ${parsed_price:g}</span>', unsafe_allow_html=True)
@@ -250,16 +208,7 @@ def main() -> None:
         st.markdown('<div class="empty-card"><strong>Search is warming up.</strong>Run <code>python embed.py</code> once to build the local index, then try again.</div>', unsafe_allow_html=True)
         return
 
-    explanations: dict[int, str] = {}
     hybrid = output["hybrid"]
-    if ai_enabled and hybrid and get_groq_key():
-        cache_key = tuple(item["id"] for item in hybrid)
-        if cache_key not in st.session_state.ai_cache:
-            try:
-                st.session_state.ai_cache[cache_key] = groq_explanations(hybrid, get_groq_key() or "")
-            except Exception:
-                st.session_state.ai_cache[cache_key] = {}
-        explanations = st.session_state.ai_cache[cache_key]
 
     st.markdown('<div class="lab-header"><div><h2>Comparison lab</h2><p>Same query, same filters, three retrieval strategies.</p></div></div>', unsafe_allow_html=True)
     methods = [("keyword", "Keyword (BM25)", "Exact terms and lexical relevance.", ""), ("semantic", "Semantic (embeddings)", "Meaning and contextual similarity.", "semantic"), ("hybrid", "Hybrid (RRF)", "Ranks combined with no score weights.", "hybrid")]
@@ -272,17 +221,12 @@ def main() -> None:
             if not items:
                 render_empty(output.get("suggestion"))
             for item in items:
-                explanation = explanations.get(item["id"]) if method == "hybrid" else None
-                st.markdown(result_card(item, method == "hybrid" and item["id"] not in keyword_ids, explanation), unsafe_allow_html=True)
+                st.markdown(result_card(item, method == "hybrid" and item["id"] not in keyword_ids), unsafe_allow_html=True)
 
     latency = output["latency_ms"]
     st.markdown(
         f'<div class="metric-strip"><div class="metric"><strong>{latency["keyword"]:.1f} ms</strong>Keyword latency · {len(output["keyword"])} results</div><div class="metric"><strong>{latency["semantic"]:.1f} ms</strong>Semantic latency · {len(output["semantic"])} results</div><div class="metric"><strong>{latency["hybrid"]:.1f} ms</strong>Hybrid latency · {len(output["hybrid"])} results</div></div>',
         unsafe_allow_html=True,
     )
-    if ai_enabled and not get_groq_key():
-        st.markdown('<div class="ai-note">AI explanations unavailable; showing local grounded match reasons.</div>', unsafe_allow_html=True)
-
-
 if __name__ == "__main__":
     main()

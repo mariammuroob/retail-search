@@ -101,5 +101,4 @@ Target's reported numbers are Target's own and not mine.
 ## Streamlit Community Cloud
 
 - Main file: `app.py`
-- Add `GROQ_API_KEY` under App settings → Secrets only if optional AI explanations are wanted.
 - Phone test checklist: search field is usable; example chips wrap; sidebar filters are reachable; all three columns stack or remain readable; cards show price, rating, and stock; empty states show a suggestion; no API key still leaves local results working.
