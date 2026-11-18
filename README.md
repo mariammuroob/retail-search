@@ -69,15 +69,34 @@ This prototype is inspired by the Google Cloud blog, 3 Sep 2025, describing Targ
 
 ## Results
 
-Placeholder: fill after labelling and evaluation.
+`n=18, labels hand-judged by me`. Empty-label queries were excluded from precision@5 and hit@5. q27/q30 were not scored; q28/q29 were used only for the fail-soft check.
 
-`n=26, labels hand-judged by me`
+No-results rates are shown over all 30 queries and over the 23 queries whose category exists in the catalogue.
 
-| Method | Mean precision@5 | No-results rate |
-|---|---:|---:|
-| Keyword (BM25) | TBD | TBD |
-| Semantic | TBD | TBD |
-| Hybrid (RRF) | TBD | TBD |
+| Run | Method | Precision@5 | Hit@5 | No-results / 30 | No-results / category-existing 23 |
+|---|---|---:|---:|---:|---:|
+| Before home fix | Keyword (BM25) | 0.0556 | 0.2778 | 19/30 (0.6333) | 12/23 (0.5217) |
+| Before home fix | Keyword + stemming | 0.0667 | 0.3333 | 16/30 (0.5333) | 9/23 (0.3913) |
+| Before home fix | Semantic | 0.1556 | 0.7222 | 7/30 (0.2333) | 0/23 (0.0000) |
+| Before home fix | Hybrid (RRF) | 0.1667 | 0.7222 | 7/30 (0.2333) | 0/23 (0.0000) |
+| After home fix | Keyword (BM25) | 0.0778 | 0.3333 | 19/30 (0.6333) | 12/23 (0.5217) |
+| After home fix | Keyword + stemming | 0.0778 | 0.3889 | 15/30 (0.5000) | 8/23 (0.3478) |
+| After home fix | Semantic | 0.1556 | 0.7222 | 7/30 (0.2333) | 0/23 (0.0000) |
+| After home fix | Hybrid (RRF) | 0.1889 | 0.7778 | 7/30 (0.2333) | 0/23 (0.0000) |
+
+On 18 scoreable queries, semantic and hybrid retrieved a relevant product in the top 5 for 13-14 queries versus 6-7 for keyword-only (with or without stemming). Hybrid and semantic are within one query of each other, which is not a meaningful difference at this sample size.
+
+Target's reported numbers are Target's own and not mine.
+
+### Limitations
+
+- n=18; 8 of the 26 candidate queries have no relevant product in the synthetic catalogue (no grocery, sports or organiser items) and are excluded.
+- Labels were reviewed and confirmed by me; some were suggested by an AI assistant.
+- The home-category mapping bug was found after seeing the first results; both runs are reported.
+- q28/q29 fail-soft check is a FAIL: semantic search always returns nearest neighbours and there is no similarity threshold. With real query logs I would add one.
+- q11's label (a Home Decor vase) sits outside the Kitchen filter and cannot be retrieved.
+- The candidate proposal tool filters by category and ignores price limits.
+- Many catalogue descriptions are near-identical template text; the catalogue is synthetic.
 
 ## Streamlit Community Cloud
 

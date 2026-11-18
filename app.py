@@ -35,7 +35,7 @@ def inject_css() -> None:
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
         :root { --ink:#1F2328; --muted:#6B7280; --red:#CC0000; --paper:#F7F7F8; --line:#E7E8EB; }
-        .stApp { background:var(--paper); color:var(--ink); font-family:'Inter',sans-serif; }
+        .stApp { background:var(--paper); color:#1F2328; font-family:'Inter',sans-serif; }
         #MainMenu, footer, header, div[data-testid="stToolbar"] { visibility:hidden; height:0; }
         .block-container { max-width:1440px; padding:2.5rem 4rem 4rem; }
         .hero { text-align:center; padding:1.1rem 0 1.55rem; }
@@ -44,17 +44,20 @@ def inject_css() -> None:
         .hero p { color:var(--muted); font-size:1.05rem; margin:.75rem 0 1.6rem; }
         .search-row { background:#fff; border:1px solid var(--line); border-radius:16px; box-shadow:0 12px 35px rgba(31,35,40,.08); padding:.45rem; }
         .search-row div[data-baseweb="input"] { border:0; background:#fff; }
-        .search-row input { font-size:1rem; padding:.8rem .9rem; }
+        .search-row input { background:#fff !important; color:#1F2328 !important; font-size:1rem; padding:.8rem .9rem; }
         .search-row .stButton button { min-height:3rem; }
-        .stButton button { border-radius:9px; font-weight:700; border:1px solid var(--line); transition:all .15s ease; }
-        .stButton button:hover { border-color:var(--red); color:var(--red); }
+        .stButton button { background:#fff; color:#1F2328; border:1px solid #E2E4E8; border-radius:9px; font-weight:700; transition:all .15s ease; }
+        .stButton button:hover { background:#fff; border-color:var(--red); color:var(--red); }
         .search-row .stButton button, button[kind="primary"] { background:var(--red); border-color:var(--red); color:#fff; }
         .search-row .stButton button:hover, button[kind="primary"]:hover { background:#a90000; border-color:#a90000; color:#fff; }
         .notice { background:#FFF4F4; border:1px solid #F2CACA; border-radius:10px; color:#7B1E1E; font-size:.78rem; padding:.7rem 1rem; text-align:center; margin:0 auto 1.25rem; }
         .chip-row { display:flex; flex-wrap:wrap; justify-content:center; gap:.45rem; margin:0 0 2.2rem; }
-        .chip-row .stButton button { background:#fff; font-size:.76rem; font-weight:600; padding:.35rem .7rem; }
+        .chip-row .stButton button, .stButton button[kind="secondary"] { background:#fff; border:1px solid #E2E4E8; color:#1F2328; font-size:.76rem; font-weight:600; padding:.35rem .7rem; }
+        .chip-row .stButton button:hover, .stButton button[kind="secondary"]:hover { background:#fff; border-color:var(--red); color:var(--red); }
         [data-testid="stSidebar"] { background:#fff; border-right:1px solid var(--line); }
         [data-testid="stSidebar"] .block-container { padding:2rem 1.35rem; }
+        [data-testid="stSidebar"] label, [data-testid="stSidebar"] p, [data-testid="stSidebar"] [data-testid="stWidgetLabel"], [data-testid="stSidebar"] [data-testid="stWidgetLabel"] * { color:#1F2328 !important; }
+        [data-testid="stSidebar"] [data-baseweb="select"] *, [data-testid="stSidebar"] [data-baseweb="slider"] *, [data-testid="stSidebar"] input { color:#1F2328 !important; }
         .sidebar-title { font-size:1.05rem; font-weight:800; margin-bottom:.2rem; }
         .sidebar-copy { color:var(--muted); font-size:.8rem; margin-bottom:1.4rem; }
         .price-pill, .category-chip, .stock-chip, .meaning-tag { display:inline-block; border-radius:999px; font-size:.68rem; font-weight:700; padding:.25rem .52rem; }
@@ -80,8 +83,11 @@ def inject_css() -> None:
         .stock-chip.in { background:#EAF7EF; color:#20733D; }
         .stock-chip.out { background:#F0F1F3; color:#6B7280; }
         .why { color:#7A8088; font-size:.68rem; line-height:1.35; margin-top:.7rem; }
-        .empty-card { background:#fff; border:1px dashed #D2D5DA; border-radius:14px; color:var(--muted); font-size:.8rem; line-height:1.5; padding:1.2rem; margin-top:.7rem; }
+        .empty-card { background:#fff; border:1px dashed #D2D5DA; border-radius:14px; color:#5B6270; font-size:.8rem; line-height:1.5; padding:1.2rem; margin:1.5rem 0; position:relative; z-index:1; }
         .empty-card strong { color:var(--ink); display:block; font-size:.9rem; margin-bottom:.2rem; }
+        .empty-card code { color:#5B6270; }
+        div[data-testid="stSpinner"], .stSpinner { background:transparent !important; color:#1F2328 !important; }
+        div[data-testid="stSpinner"] *, .stSpinner * { color:#1F2328 !important; }
         .metric-strip { background:#fff; border:1px solid var(--line); border-radius:12px; display:flex; justify-content:space-around; margin-top:1.2rem; padding:.8rem; }
         .metric { color:var(--muted); font-size:.7rem; text-align:center; }
         .metric strong { color:var(--ink); display:block; font-size:.95rem; margin-bottom:.15rem; }
@@ -92,7 +98,7 @@ def inject_css() -> None:
     )
 
 
-@st.cache_resource(show_spinner="Loading local search resources...")
+@st.cache_resource(show_spinner=False)
 def load_resources() -> tuple[sqlite3.Connection, Any, Any, np.ndarray]:
     """Cache the long-lived DB connection, embedding model, and FAISS index."""
     import faiss
@@ -229,16 +235,17 @@ def main() -> None:
         return
 
     try:
-        connection, model, index, ids = load_resources()
-        search._MODEL, search._INDEX, search._INDEX_IDS = model, index, ids
-        output = search.search_all(
-            connection,
-            st.session_state.query_input,
-            category=None if category == "All" else category,
-            in_stock_only=in_stock_only,
-            max_price_override=None if parsed_price is not None else float(max_price_slider),
-            top_n=5,
-        )
+        with st.spinner("Loading local search resources..."):
+            connection, model, index, ids = load_resources()
+            search._MODEL, search._INDEX, search._INDEX_IDS = model, index, ids
+            output = search.search_all(
+                connection,
+                st.session_state.query_input,
+                category=None if category == "All" else category,
+                in_stock_only=in_stock_only,
+                max_price_override=None if parsed_price is not None else float(max_price_slider),
+                top_n=5,
+            )
     except Exception:
         st.markdown('<div class="empty-card"><strong>Search is warming up.</strong>Run <code>python embed.py</code> once to build the local index, then try again.</div>', unsafe_allow_html=True)
         return
