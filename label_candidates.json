@@ -1,0 +1,1730 @@
+[
+  {
+    "query_id": "q01",
+    "query": "soften the sofa with a snug layer",
+    "category": "home",
+    "required_tags": [
+      "cosy",
+      "soft"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 69,
+        "title": "Cosy Throw Pillow",
+        "description": "Bring home a cosy throw pillow with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 83.36,
+        "category": "Home Decor"
+      },
+      {
+        "id": 261,
+        "title": "Soft Wall Art",
+        "description": "Bring home a soft wall art with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 118.73,
+        "category": "Home Decor"
+      },
+      {
+        "id": 379,
+        "title": "Soft Table Lamp",
+        "description": "Bring home a soft table lamp with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 5.01,
+        "category": "Home Decor"
+      },
+      {
+        "id": 1,
+        "title": "Cosy Knit Blanket",
+        "description": "A cosy knitted layer with a soft feel for quiet evenings.",
+        "price": 22.99,
+        "category": "Bedding"
+      },
+      {
+        "id": 56,
+        "title": "Soft Throw Pillow",
+        "description": "A soft throw pillow made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 42.03,
+        "category": "Home Decor"
+      },
+      {
+        "id": 356,
+        "title": "Sleek Mattress Pad",
+        "description": "Bring home a sleek mattress pad with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 93.39,
+        "category": "Bedding"
+      },
+      {
+        "id": 3,
+        "title": "Cloud Nap Cover",
+        "description": "A gentle cover for restful naps with a brushed, pillowy texture.",
+        "price": 28.5,
+        "category": "Bedding"
+      },
+      {
+        "id": 216,
+        "title": "Cheerful Mattress Pad",
+        "description": "Bring home a cheerful mattress pad with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 13.31,
+        "category": "Bedding"
+      }
+    ]
+  },
+  {
+    "query_id": "q02",
+    "query": "sturdy organisers under $30",
+    "category": "home",
+    "required_tags": [
+      "sturdy",
+      "organised"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 6,
+        "title": "Sturdy Table Lamp",
+        "description": "Bring home a sturdy table lamp with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 6.72,
+        "category": "Home Decor"
+      },
+      {
+        "id": 29,
+        "title": "Sturdy Throw Pillow",
+        "description": "Bring home a sturdy throw pillow with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 18.02,
+        "category": "Home Decor"
+      },
+      {
+        "id": 181,
+        "title": "Sturdy Throw Pillow",
+        "description": "Bring home a sturdy throw pillow with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 78.08,
+        "category": "Home Decor"
+      },
+      {
+        "id": 257,
+        "title": "Sturdy Wall Art",
+        "description": "This sturdy wall art is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 88.75,
+        "category": "Home Decor"
+      },
+      {
+        "id": 383,
+        "title": "Sturdy Candle",
+        "description": "This sturdy candle is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 47.13,
+        "category": "Home Decor"
+      },
+      {
+        "id": 91,
+        "title": "Soft Building Set",
+        "description": "This soft building set is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 6.4,
+        "category": "Toys"
+      },
+      {
+        "id": 291,
+        "title": "Lightweight Building Set",
+        "description": "This lightweight building set is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 11.54,
+        "category": "Toys"
+      },
+      {
+        "id": 194,
+        "title": "Lightweight Building Set",
+        "description": "This lightweight building set is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 49.65,
+        "category": "Toys"
+      }
+    ]
+  },
+  {
+    "query_id": "q03",
+    "query": "make a youngster's corner cheerful",
+    "category": "toys",
+    "required_tags": [
+      "cute",
+      "kidsroom"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 14,
+        "title": "Cute Puzzle",
+        "description": "This cute puzzle is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 27.51,
+        "category": "Toys"
+      },
+      {
+        "id": 120,
+        "title": "Cute Puzzle",
+        "description": "A cute puzzle made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 113.1,
+        "category": "Toys"
+      },
+      {
+        "id": 159,
+        "title": "Cute Toy Truck",
+        "description": "A cute toy truck made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 12.24,
+        "category": "Toys"
+      },
+      {
+        "id": 280,
+        "title": "Cute Toy Truck",
+        "description": "Bring home a cute toy truck with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 10.69,
+        "category": "Toys"
+      },
+      {
+        "id": 350,
+        "title": "Cute Toy Truck",
+        "description": "Bring home a cute toy truck with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 100.67,
+        "category": "Toys"
+      },
+      {
+        "id": 352,
+        "title": "Cute Puzzle",
+        "description": "This cute puzzle is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 112.68,
+        "category": "Toys"
+      },
+      {
+        "id": 360,
+        "title": "Cute Play Kitchen",
+        "description": "This cute play kitchen is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 24.51,
+        "category": "Toys"
+      },
+      {
+        "id": 208,
+        "title": "Cheerful Play Kitchen",
+        "description": "Bring home a cheerful play kitchen with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 51.46,
+        "category": "Toys"
+      }
+    ]
+  },
+  {
+    "query_id": "q04",
+    "query": "compact travel clothes",
+    "category": "apparel",
+    "required_tags": [
+      "durable",
+      "travel"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 8,
+        "title": "Durable Cardigan",
+        "description": "This durable cardigan is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 35.55,
+        "category": "Apparel"
+      },
+      {
+        "id": 18,
+        "title": "Durable T-Shirt",
+        "description": "Bring home a durable t-shirt with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 49.29,
+        "category": "Apparel"
+      },
+      {
+        "id": 46,
+        "title": "Durable Hoodie",
+        "description": "This durable hoodie is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 113.17,
+        "category": "Apparel"
+      },
+      {
+        "id": 125,
+        "title": "Durable Hoodie",
+        "description": "Bring home a durable hoodie with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 33.96,
+        "category": "Apparel"
+      },
+      {
+        "id": 219,
+        "title": "Durable Sneakers",
+        "description": "This durable sneakers is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 88.1,
+        "category": "Apparel"
+      },
+      {
+        "id": 309,
+        "title": "Cosy T-Shirt",
+        "description": "Bring home a cosy t-shirt with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 34.07,
+        "category": "Apparel"
+      },
+      {
+        "id": 104,
+        "title": "Cosy T-Shirt",
+        "description": "This cosy t-shirt is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 15.35,
+        "category": "Apparel"
+      },
+      {
+        "id": 339,
+        "title": "Lightweight T-Shirt",
+        "description": "Bring home a lightweight t-shirt with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 109.8,
+        "category": "Apparel"
+      }
+    ]
+  },
+  {
+    "query_id": "q05",
+    "query": "warm winter layers",
+    "category": "apparel",
+    "required_tags": [
+      "soft",
+      "winter"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 4,
+        "title": "Soft Lounge Cardigan",
+        "description": "A relaxed, light layer for quiet mornings and cool rooms.",
+        "price": 29.0,
+        "category": "Apparel"
+      },
+      {
+        "id": 30,
+        "title": "Soft Socks",
+        "description": "Bring home a soft socks with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 52.51,
+        "category": "Apparel"
+      },
+      {
+        "id": 31,
+        "title": "Soft Socks",
+        "description": "This soft socks is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 54.26,
+        "category": "Apparel"
+      },
+      {
+        "id": 48,
+        "title": "Soft T-Shirt",
+        "description": "A soft t-shirt made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 30.93,
+        "category": "Apparel"
+      },
+      {
+        "id": 127,
+        "title": "Soft Cardigan",
+        "description": "A soft cardigan made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 36.71,
+        "category": "Apparel"
+      },
+      {
+        "id": 160,
+        "title": "Cheerful Socks",
+        "description": "Bring home a cheerful socks with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 30.17,
+        "category": "Apparel"
+      },
+      {
+        "id": 342,
+        "title": "Modern Socks",
+        "description": "Bring home a modern socks with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 22.25,
+        "category": "Apparel"
+      },
+      {
+        "id": 35,
+        "title": "Modern Socks",
+        "description": "Bring home a modern socks with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 31.43,
+        "category": "Apparel"
+      }
+    ]
+  },
+  {
+    "query_id": "q06",
+    "query": "breathable gym clothing",
+    "category": "apparel",
+    "required_tags": [
+      "gym",
+      "active"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 4,
+        "title": "Soft Lounge Cardigan",
+        "description": "A relaxed, light layer for quiet mornings and cool rooms.",
+        "price": 29.0,
+        "category": "Apparel"
+      },
+      {
+        "id": 8,
+        "title": "Durable Cardigan",
+        "description": "This durable cardigan is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 35.55,
+        "category": "Apparel"
+      },
+      {
+        "id": 12,
+        "title": "Modern T-Shirt",
+        "description": "This modern t-shirt is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 25.5,
+        "category": "Apparel"
+      },
+      {
+        "id": 18,
+        "title": "Durable T-Shirt",
+        "description": "Bring home a durable t-shirt with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 49.29,
+        "category": "Apparel"
+      },
+      {
+        "id": 23,
+        "title": "Handy T-Shirt",
+        "description": "A handy t-shirt made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 82.76,
+        "category": "Apparel"
+      },
+      {
+        "id": 309,
+        "title": "Cosy T-Shirt",
+        "description": "Bring home a cosy t-shirt with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 34.07,
+        "category": "Apparel"
+      },
+      {
+        "id": 71,
+        "title": "Sturdy T-Shirt",
+        "description": "Bring home a sturdy t-shirt with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 62.33,
+        "category": "Apparel"
+      },
+      {
+        "id": 30,
+        "title": "Soft Socks",
+        "description": "Bring home a soft socks with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 52.51,
+        "category": "Apparel"
+      }
+    ]
+  },
+  {
+    "query_id": "q07",
+    "query": "soft plush gift ideas",
+    "category": "toys",
+    "required_tags": [
+      "soft",
+      "gift"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 16,
+        "title": "Soft Play Kitchen",
+        "description": "Bring home a soft play kitchen with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 28.69,
+        "category": "Toys"
+      },
+      {
+        "id": 19,
+        "title": "Soft Building Set",
+        "description": "A soft building set made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 90.16,
+        "category": "Toys"
+      },
+      {
+        "id": 84,
+        "title": "Soft Play Kitchen",
+        "description": "A soft play kitchen made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 92.6,
+        "category": "Toys"
+      },
+      {
+        "id": 91,
+        "title": "Soft Building Set",
+        "description": "This soft building set is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 6.4,
+        "category": "Toys"
+      },
+      {
+        "id": 124,
+        "title": "Soft Play Kitchen",
+        "description": "Bring home a soft play kitchen with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 38.73,
+        "category": "Toys"
+      },
+      {
+        "id": 210,
+        "title": "Soft Toy Truck",
+        "description": "A soft toy truck made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 49.25,
+        "category": "Toys"
+      },
+      {
+        "id": 273,
+        "title": "Soft Puzzle",
+        "description": "A soft puzzle made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 6.03,
+        "category": "Toys"
+      },
+      {
+        "id": 81,
+        "title": "Handy Plush Bear",
+        "description": "A handy plush bear made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 56.41,
+        "category": "Toys"
+      }
+    ]
+  },
+  {
+    "query_id": "q08",
+    "query": "durable toys for kids",
+    "category": "toys",
+    "required_tags": [
+      "durable",
+      "kidsroom"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 75,
+        "title": "Durable Play Kitchen",
+        "description": "Bring home a durable play kitchen with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 95.87,
+        "category": "Toys"
+      },
+      {
+        "id": 243,
+        "title": "Durable Building Set",
+        "description": "Bring home a durable building set with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 105.14,
+        "category": "Toys"
+      },
+      {
+        "id": 343,
+        "title": "Durable Plush Bear",
+        "description": "Bring home a durable plush bear with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 60.19,
+        "category": "Toys"
+      },
+      {
+        "id": 14,
+        "title": "Cute Puzzle",
+        "description": "This cute puzzle is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 27.51,
+        "category": "Toys"
+      },
+      {
+        "id": 19,
+        "title": "Soft Building Set",
+        "description": "A soft building set made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 90.16,
+        "category": "Toys"
+      },
+      {
+        "id": 78,
+        "title": "Sturdy Toy Truck",
+        "description": "This sturdy toy truck is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 106.68,
+        "category": "Toys"
+      },
+      {
+        "id": 108,
+        "title": "Modern Toy Truck",
+        "description": "Bring home a modern toy truck with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 42.36,
+        "category": "Toys"
+      },
+      {
+        "id": 93,
+        "title": "Modern Toy Truck",
+        "description": "Bring home a modern toy truck with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 12.82,
+        "category": "Toys"
+      }
+    ]
+  },
+  {
+    "query_id": "q09",
+    "query": "keep a little one occupied on a trip",
+    "category": "toys",
+    "required_tags": [
+      "travel",
+      "compact"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 14,
+        "title": "Cute Puzzle",
+        "description": "This cute puzzle is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 27.51,
+        "category": "Toys"
+      },
+      {
+        "id": 16,
+        "title": "Soft Play Kitchen",
+        "description": "Bring home a soft play kitchen with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 28.69,
+        "category": "Toys"
+      },
+      {
+        "id": 19,
+        "title": "Soft Building Set",
+        "description": "A soft building set made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 90.16,
+        "category": "Toys"
+      },
+      {
+        "id": 36,
+        "title": "Sturdy Building Set",
+        "description": "A sturdy building set made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 44.45,
+        "category": "Toys"
+      },
+      {
+        "id": 68,
+        "title": "Handy Toy Truck",
+        "description": "A handy toy truck made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 108.24,
+        "category": "Toys"
+      },
+      {
+        "id": 352,
+        "title": "Cute Puzzle",
+        "description": "This cute puzzle is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 112.68,
+        "category": "Toys"
+      },
+      {
+        "id": 138,
+        "title": "Cosy Toy Truck",
+        "description": "This cosy toy truck is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 39.8,
+        "category": "Toys"
+      },
+      {
+        "id": 73,
+        "title": "Modern Building Set",
+        "description": "Bring home a modern building set with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 50.51,
+        "category": "Toys"
+      }
+    ]
+  },
+  {
+    "query_id": "q10",
+    "query": "stackable kitchen storage",
+    "category": "kitchen",
+    "required_tags": [
+      "compact",
+      "durable"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 28,
+        "title": "Durable Cutting Board",
+        "description": "A durable cutting board made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 105.73,
+        "category": "Kitchen"
+      },
+      {
+        "id": 39,
+        "title": "Durable Water Bottle",
+        "description": "A durable water bottle made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 97.54,
+        "category": "Kitchen"
+      },
+      {
+        "id": 51,
+        "title": "Durable Mug",
+        "description": "This durable mug is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 21.46,
+        "category": "Kitchen"
+      },
+      {
+        "id": 64,
+        "title": "Durable Mixing Bowl",
+        "description": "A durable mixing bowl made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 49.62,
+        "category": "Kitchen"
+      },
+      {
+        "id": 74,
+        "title": "Durable Cutting Board",
+        "description": "This durable cutting board is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 73.98,
+        "category": "Kitchen"
+      },
+      {
+        "id": 156,
+        "title": "Sturdy Mixing Bowl",
+        "description": "This sturdy mixing bowl is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 91.96,
+        "category": "Kitchen"
+      },
+      {
+        "id": 130,
+        "title": "Sturdy Mixing Bowl",
+        "description": "A sturdy mixing bowl made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 95.74,
+        "category": "Kitchen"
+      },
+      {
+        "id": 36,
+        "title": "Sturdy Building Set",
+        "description": "A sturdy building set made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 44.45,
+        "category": "Toys"
+      }
+    ]
+  },
+  {
+    "query_id": "q11",
+    "query": "cute ceramic gifts",
+    "category": "kitchen",
+    "required_tags": [
+      "cute",
+      "gift"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 53,
+        "title": "Cute Mug",
+        "description": "This cute mug is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 107.1,
+        "category": "Kitchen"
+      },
+      {
+        "id": 250,
+        "title": "Cute Mixing Bowl",
+        "description": "Bring home a cute mixing bowl with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 64.75,
+        "category": "Kitchen"
+      },
+      {
+        "id": 278,
+        "title": "Cute Mixing Bowl",
+        "description": "This cute mixing bowl is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 29.24,
+        "category": "Kitchen"
+      },
+      {
+        "id": 374,
+        "title": "Cute Mixing Bowl",
+        "description": "Bring home a cute mixing bowl with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 60.13,
+        "category": "Kitchen"
+      },
+      {
+        "id": 10,
+        "title": "Sturdy Mug",
+        "description": "This sturdy mug is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 45.0,
+        "category": "Kitchen"
+      },
+      {
+        "id": 312,
+        "title": "Cosy Vase",
+        "description": "This cosy vase is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 52.0,
+        "category": "Home Decor"
+      },
+      {
+        "id": 396,
+        "title": "Cheerful Wall Art",
+        "description": "This cheerful wall art is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 14.96,
+        "category": "Home Decor"
+      },
+      {
+        "id": 270,
+        "title": "Modern Vase",
+        "description": "Bring home a modern vase with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 7.07,
+        "category": "Home Decor"
+      }
+    ]
+  },
+  {
+    "query_id": "q12",
+    "query": "healthy cooking helpers",
+    "category": "kitchen",
+    "required_tags": [
+      "healthy",
+      "sturdy"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 10,
+        "title": "Sturdy Mug",
+        "description": "This sturdy mug is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 45.0,
+        "category": "Kitchen"
+      },
+      {
+        "id": 24,
+        "title": "Sturdy Cutting Board",
+        "description": "This sturdy cutting board is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 21.5,
+        "category": "Kitchen"
+      },
+      {
+        "id": 67,
+        "title": "Sturdy Mug",
+        "description": "Bring home a sturdy mug with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 43.45,
+        "category": "Kitchen"
+      },
+      {
+        "id": 130,
+        "title": "Sturdy Mixing Bowl",
+        "description": "A sturdy mixing bowl made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 95.74,
+        "category": "Kitchen"
+      },
+      {
+        "id": 156,
+        "title": "Sturdy Mixing Bowl",
+        "description": "This sturdy mixing bowl is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 91.96,
+        "category": "Kitchen"
+      },
+      {
+        "id": 197,
+        "title": "Handy Mixing Bowl",
+        "description": "A handy mixing bowl made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 114.93,
+        "category": "Kitchen"
+      },
+      {
+        "id": 255,
+        "title": "Handy Mug",
+        "description": "Bring home a handy mug with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 95.01,
+        "category": "Kitchen"
+      },
+      {
+        "id": 374,
+        "title": "Cute Mixing Bowl",
+        "description": "Bring home a cute mixing bowl with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 60.13,
+        "category": "Kitchen"
+      }
+    ]
+  },
+  {
+    "query_id": "q13",
+    "query": "portable charging gear",
+    "category": "electronics",
+    "required_tags": [
+      "compact",
+      "travel"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 9,
+        "title": "Lightweight Phone Stand",
+        "description": "This lightweight phone stand is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 21.19,
+        "category": "Electronics"
+      },
+      {
+        "id": 17,
+        "title": "Durable Desk Speaker",
+        "description": "A durable desk speaker made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 49.94,
+        "category": "Electronics"
+      },
+      {
+        "id": 27,
+        "title": "Cosy Power Bank",
+        "description": "Bring home a cosy power bank with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 60.17,
+        "category": "Electronics"
+      },
+      {
+        "id": 34,
+        "title": "Sturdy Headphones",
+        "description": "Bring home a sturdy headphones with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 35.58,
+        "category": "Electronics"
+      },
+      {
+        "id": 37,
+        "title": "Sturdy Desk Speaker",
+        "description": "A sturdy desk speaker made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 88.2,
+        "category": "Electronics"
+      },
+      {
+        "id": 321,
+        "title": "Soft Power Bank",
+        "description": "Bring home a soft power bank with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 19.06,
+        "category": "Electronics"
+      },
+      {
+        "id": 302,
+        "title": "Soft Power Bank",
+        "description": "Bring home a soft power bank with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 16.9,
+        "category": "Electronics"
+      },
+      {
+        "id": 289,
+        "title": "Soft Power Bank",
+        "description": "Bring home a soft power bank with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 92.73,
+        "category": "Electronics"
+      }
+    ]
+  },
+  {
+    "query_id": "q14",
+    "query": "durable desk setup",
+    "category": "electronics",
+    "required_tags": [
+      "durable",
+      "organised"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 17,
+        "title": "Durable Desk Speaker",
+        "description": "A durable desk speaker made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 49.94,
+        "category": "Electronics"
+      },
+      {
+        "id": 62,
+        "title": "Durable Reading Light",
+        "description": "This durable reading light is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 95.12,
+        "category": "Electronics"
+      },
+      {
+        "id": 149,
+        "title": "Durable Phone Stand",
+        "description": "Bring home a durable phone stand with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 30.33,
+        "category": "Electronics"
+      },
+      {
+        "id": 183,
+        "title": "Durable Power Bank",
+        "description": "Bring home a durable power bank with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 98.13,
+        "category": "Electronics"
+      },
+      {
+        "id": 220,
+        "title": "Durable Phone Stand",
+        "description": "A durable phone stand made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 32.95,
+        "category": "Electronics"
+      },
+      {
+        "id": 34,
+        "title": "Sturdy Headphones",
+        "description": "Bring home a sturdy headphones with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 35.58,
+        "category": "Electronics"
+      },
+      {
+        "id": 6,
+        "title": "Sturdy Table Lamp",
+        "description": "Bring home a sturdy table lamp with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 6.72,
+        "category": "Home Decor"
+      },
+      {
+        "id": 36,
+        "title": "Sturdy Building Set",
+        "description": "A sturdy building set made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 44.45,
+        "category": "Toys"
+      }
+    ]
+  },
+  {
+    "query_id": "q15",
+    "query": "small wireless gifts",
+    "category": "electronics",
+    "required_tags": [
+      "gift",
+      "compact"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 9,
+        "title": "Lightweight Phone Stand",
+        "description": "This lightweight phone stand is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 21.19,
+        "category": "Electronics"
+      },
+      {
+        "id": 17,
+        "title": "Durable Desk Speaker",
+        "description": "A durable desk speaker made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 49.94,
+        "category": "Electronics"
+      },
+      {
+        "id": 27,
+        "title": "Cosy Power Bank",
+        "description": "Bring home a cosy power bank with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 60.17,
+        "category": "Electronics"
+      },
+      {
+        "id": 34,
+        "title": "Sturdy Headphones",
+        "description": "Bring home a sturdy headphones with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 35.58,
+        "category": "Electronics"
+      },
+      {
+        "id": 37,
+        "title": "Sturdy Desk Speaker",
+        "description": "A sturdy desk speaker made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 88.2,
+        "category": "Electronics"
+      },
+      {
+        "id": 248,
+        "title": "Cute Headphones",
+        "description": "A cute headphones made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 36.56,
+        "category": "Electronics"
+      },
+      {
+        "id": 266,
+        "title": "Handy Phone Stand",
+        "description": "This handy phone stand is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 15.0,
+        "category": "Electronics"
+      },
+      {
+        "id": 327,
+        "title": "Cosy Phone Stand",
+        "description": "This cosy phone stand is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 24.8,
+        "category": "Electronics"
+      }
+    ]
+  },
+  {
+    "query_id": "q16",
+    "query": "a pampering ritual away from home",
+    "category": "beauty",
+    "required_tags": [
+      "compact",
+      "travel"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 5,
+        "title": "Cosy Face Cream",
+        "description": "Bring home a cosy face cream with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 31.65,
+        "category": "Beauty"
+      },
+      {
+        "id": 13,
+        "title": "Soft Shampoo",
+        "description": "A soft shampoo made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 104.38,
+        "category": "Beauty"
+      },
+      {
+        "id": 15,
+        "title": "Modern Face Cream",
+        "description": "Bring home a modern face cream with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 65.49,
+        "category": "Beauty"
+      },
+      {
+        "id": 20,
+        "title": "Lightweight Hair Brush",
+        "description": "Bring home a lightweight hair brush with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 45.35,
+        "category": "Beauty"
+      },
+      {
+        "id": 25,
+        "title": "Handy Lip Balm",
+        "description": "A handy lip balm made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 109.78,
+        "category": "Beauty"
+      },
+      {
+        "id": 312,
+        "title": "Cosy Vase",
+        "description": "This cosy vase is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 52.0,
+        "category": "Home Decor"
+      },
+      {
+        "id": 52,
+        "title": "Modern Lip Balm",
+        "description": "Bring home a modern lip balm with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 3.92,
+        "category": "Beauty"
+      },
+      {
+        "id": 58,
+        "title": "Handy Shampoo",
+        "description": "A handy shampoo made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 71.15,
+        "category": "Beauty"
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "query": "calming self care gifts",
+    "category": "beauty",
+    "required_tags": [
+      "relax",
+      "soft"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 13,
+        "title": "Soft Shampoo",
+        "description": "A soft shampoo made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 104.38,
+        "category": "Beauty"
+      },
+      {
+        "id": 85,
+        "title": "Soft Shampoo",
+        "description": "This soft shampoo is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 86.48,
+        "category": "Beauty"
+      },
+      {
+        "id": 189,
+        "title": "Soft Hair Brush",
+        "description": "This soft hair brush is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 10.12,
+        "category": "Beauty"
+      },
+      {
+        "id": 232,
+        "title": "Soft Bath Salts",
+        "description": "This soft bath salts is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 105.17,
+        "category": "Beauty"
+      },
+      {
+        "id": 263,
+        "title": "Soft Lip Balm",
+        "description": "A soft lip balm made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 54.12,
+        "category": "Beauty"
+      },
+      {
+        "id": 111,
+        "title": "Cheerful Bath Salts",
+        "description": "Bring home a cheerful bath salts with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 83.8,
+        "category": "Beauty"
+      },
+      {
+        "id": 79,
+        "title": "Cheerful Bath Salts",
+        "description": "This cheerful bath salts is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 20.27,
+        "category": "Beauty"
+      },
+      {
+        "id": 259,
+        "title": "Cheerful Shampoo",
+        "description": "Bring home a cheerful shampoo with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 76.91,
+        "category": "Beauty"
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "query": "daily beauty under $20",
+    "category": "beauty",
+    "required_tags": [
+      "compact",
+      "travel"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 5,
+        "title": "Cosy Face Cream",
+        "description": "Bring home a cosy face cream with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 31.65,
+        "category": "Beauty"
+      },
+      {
+        "id": 13,
+        "title": "Soft Shampoo",
+        "description": "A soft shampoo made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 104.38,
+        "category": "Beauty"
+      },
+      {
+        "id": 15,
+        "title": "Modern Face Cream",
+        "description": "Bring home a modern face cream with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 65.49,
+        "category": "Beauty"
+      },
+      {
+        "id": 20,
+        "title": "Lightweight Hair Brush",
+        "description": "Bring home a lightweight hair brush with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 45.35,
+        "category": "Beauty"
+      },
+      {
+        "id": 25,
+        "title": "Handy Lip Balm",
+        "description": "A handy lip balm made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 109.78,
+        "category": "Beauty"
+      },
+      {
+        "id": 290,
+        "title": "Cheerful Face Cream",
+        "description": "Bring home a cheerful face cream with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 36.89,
+        "category": "Beauty"
+      },
+      {
+        "id": 320,
+        "title": "Sleek Face Cream",
+        "description": "This sleek face cream is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 90.44,
+        "category": "Beauty"
+      },
+      {
+        "id": 137,
+        "title": "Cute Face Cream",
+        "description": "This cute face cream is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 84.16,
+        "category": "Beauty"
+      }
+    ]
+  },
+  {
+    "query_id": "q19",
+    "query": "something nourishing to start the day",
+    "category": "grocery",
+    "required_tags": [
+      "healthy",
+      "warm"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 2,
+        "title": "Plush Fleece Throw",
+        "description": "A warm layer for chilly evenings, made from fluffy fleece.",
+        "price": 24.99,
+        "category": "Bedding"
+      },
+      {
+        "id": 7,
+        "title": "Modern Mattress Pad",
+        "description": "A modern mattress pad made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 26.26,
+        "category": "Bedding"
+      },
+      {
+        "id": 8,
+        "title": "Durable Cardigan",
+        "description": "This durable cardigan is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 35.55,
+        "category": "Apparel"
+      },
+      {
+        "id": 9,
+        "title": "Lightweight Phone Stand",
+        "description": "This lightweight phone stand is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 21.19,
+        "category": "Electronics"
+      },
+      {
+        "id": 10,
+        "title": "Sturdy Mug",
+        "description": "This sturdy mug is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 45.0,
+        "category": "Kitchen"
+      },
+      {
+        "id": 160,
+        "title": "Cheerful Socks",
+        "description": "Bring home a cheerful socks with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 30.17,
+        "category": "Apparel"
+      },
+      {
+        "id": 212,
+        "title": "Cheerful Candle",
+        "description": "Bring home a cheerful candle with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 23.56,
+        "category": "Home Decor"
+      },
+      {
+        "id": 111,
+        "title": "Cheerful Bath Salts",
+        "description": "Bring home a cheerful bath salts with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 83.8,
+        "category": "Beauty"
+      }
+    ]
+  },
+  {
+    "query_id": "q20",
+    "query": "small travel food box",
+    "category": "grocery",
+    "required_tags": [
+      "travel",
+      "compact"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 360,
+        "title": "Cute Play Kitchen",
+        "description": "This cute play kitchen is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 24.51,
+        "category": "Toys"
+      },
+      {
+        "id": 352,
+        "title": "Cute Puzzle",
+        "description": "This cute puzzle is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 112.68,
+        "category": "Toys"
+      },
+      {
+        "id": 14,
+        "title": "Cute Puzzle",
+        "description": "This cute puzzle is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 27.51,
+        "category": "Toys"
+      }
+    ]
+  },
+  {
+    "query_id": "q21",
+    "query": "wholesome gifts",
+    "category": "grocery",
+    "required_tags": [
+      "healthy",
+      "gift"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 297,
+        "title": "Cheerful Cardigan",
+        "description": "This cheerful cardigan is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 5.71,
+        "category": "Apparel"
+      },
+      {
+        "id": 396,
+        "title": "Cheerful Wall Art",
+        "description": "This cheerful wall art is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 14.96,
+        "category": "Home Decor"
+      },
+      {
+        "id": 161,
+        "title": "Cosy Puzzle",
+        "description": "This cosy puzzle is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 82.28,
+        "category": "Toys"
+      }
+    ]
+  },
+  {
+    "query_id": "q22",
+    "query": "grippy gym equipment",
+    "category": "sports",
+    "required_tags": [
+      "gym",
+      "active"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 83,
+        "title": "Lightweight Sneakers",
+        "description": "Bring home a lightweight sneakers with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 107.97,
+        "category": "Apparel"
+      },
+      {
+        "id": 47,
+        "title": "Cosy Sneakers",
+        "description": "Bring home a cosy sneakers with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 52.05,
+        "category": "Apparel"
+      },
+      {
+        "id": 188,
+        "title": "Sturdy Sneakers",
+        "description": "This sturdy sneakers is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 28.92,
+        "category": "Apparel"
+      }
+    ]
+  },
+  {
+    "query_id": "q23",
+    "query": "weather ready winter gear",
+    "category": "sports",
+    "required_tags": [
+      "winter",
+      "outdoor"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 375,
+        "title": "Handy Hoodie",
+        "description": "A handy hoodie made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 113.59,
+        "category": "Apparel"
+      },
+      {
+        "id": 326,
+        "title": "Handy Socks",
+        "description": "Bring home a handy socks with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 109.85,
+        "category": "Apparel"
+      },
+      {
+        "id": 2,
+        "title": "Plush Fleece Throw",
+        "description": "A warm layer for chilly evenings, made from fluffy fleece.",
+        "price": 24.99,
+        "category": "Bedding"
+      }
+    ]
+  },
+  {
+    "query_id": "q24",
+    "query": "lightweight active travel kit",
+    "category": "sports",
+    "required_tags": [
+      "compact",
+      "travel"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 9,
+        "title": "Lightweight Phone Stand",
+        "description": "This lightweight phone stand is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 21.19,
+        "category": "Electronics"
+      },
+      {
+        "id": 20,
+        "title": "Lightweight Hair Brush",
+        "description": "Bring home a lightweight hair brush with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 45.35,
+        "category": "Beauty"
+      },
+      {
+        "id": 80,
+        "title": "Lightweight Desk Speaker",
+        "description": "A lightweight desk speaker made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 97.08,
+        "category": "Electronics"
+      },
+      {
+        "id": 83,
+        "title": "Lightweight Sneakers",
+        "description": "Bring home a lightweight sneakers with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 107.97,
+        "category": "Apparel"
+      },
+      {
+        "id": 88,
+        "title": "Lightweight Vase",
+        "description": "This lightweight vase is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 113.69,
+        "category": "Home Decor"
+      },
+      {
+        "id": 108,
+        "title": "Modern Toy Truck",
+        "description": "Bring home a modern toy truck with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 42.36,
+        "category": "Toys"
+      },
+      {
+        "id": 93,
+        "title": "Modern Toy Truck",
+        "description": "Bring home a modern toy truck with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 12.82,
+        "category": "Toys"
+      },
+      {
+        "id": 350,
+        "title": "Cute Toy Truck",
+        "description": "Bring home a cute toy truck with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 100.67,
+        "category": "Toys"
+      }
+    ]
+  },
+  {
+    "query_id": "q25",
+    "query": "cosy home thows",
+    "category": "home",
+    "required_tags": [
+      "cosy",
+      "soft"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 69,
+        "title": "Cosy Throw Pillow",
+        "description": "Bring home a cosy throw pillow with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 83.36,
+        "category": "Home Decor"
+      },
+      {
+        "id": 56,
+        "title": "Soft Throw Pillow",
+        "description": "A soft throw pillow made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 42.03,
+        "category": "Home Decor"
+      },
+      {
+        "id": 77,
+        "title": "Soft Vase",
+        "description": "A soft vase made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 20.24,
+        "category": "Home Decor"
+      },
+      {
+        "id": 96,
+        "title": "Cosy Table Lamp",
+        "description": "This cosy table lamp is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 79.07,
+        "category": "Home Decor"
+      },
+      {
+        "id": 100,
+        "title": "Soft Vase",
+        "description": "A soft vase made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 6.0,
+        "category": "Home Decor"
+      },
+      {
+        "id": 103,
+        "title": "Cosy Table Lamp",
+        "description": "This cosy table lamp is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 53.12,
+        "category": "Home Decor"
+      },
+      {
+        "id": 211,
+        "title": "Soft Vase",
+        "description": "A soft vase made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 92.41,
+        "category": "Home Decor"
+      },
+      {
+        "id": 214,
+        "title": "Cosy Throw Pillow",
+        "description": "This cosy throw pillow is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 103.87,
+        "category": "Home Decor"
+      }
+    ]
+  },
+  {
+    "query_id": "q26",
+    "query": "something sturdy",
+    "category": "kitchen",
+    "required_tags": [
+      "sturdy",
+      "durable"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 10,
+        "title": "Sturdy Mug",
+        "description": "This sturdy mug is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 45.0,
+        "category": "Kitchen"
+      },
+      {
+        "id": 24,
+        "title": "Sturdy Cutting Board",
+        "description": "This sturdy cutting board is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 21.5,
+        "category": "Kitchen"
+      },
+      {
+        "id": 67,
+        "title": "Sturdy Mug",
+        "description": "Bring home a sturdy mug with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 43.45,
+        "category": "Kitchen"
+      },
+      {
+        "id": 130,
+        "title": "Sturdy Mixing Bowl",
+        "description": "A sturdy mixing bowl made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 95.74,
+        "category": "Kitchen"
+      },
+      {
+        "id": 156,
+        "title": "Sturdy Mixing Bowl",
+        "description": "This sturdy mixing bowl is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 91.96,
+        "category": "Kitchen"
+      },
+      {
+        "id": 385,
+        "title": "Sturdy Tea Towel",
+        "description": "Bring home a sturdy tea towel with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 29.88,
+        "category": "Kitchen"
+      },
+      {
+        "id": 398,
+        "title": "Sturdy Tea Towel",
+        "description": "Bring home a sturdy tea towel with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 94.78,
+        "category": "Kitchen"
+      },
+      {
+        "id": 28,
+        "title": "Durable Cutting Board",
+        "description": "A durable cutting board made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 105.73,
+        "category": "Kitchen"
+      }
+    ]
+  },
+  {
+    "query_id": "q27",
+    "query": "GIFT IDEAS",
+    "category": "toys",
+    "required_tags": [
+      "gift",
+      "cute"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 14,
+        "title": "Cute Puzzle",
+        "description": "This cute puzzle is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 27.51,
+        "category": "Toys"
+      },
+      {
+        "id": 120,
+        "title": "Cute Puzzle",
+        "description": "A cute puzzle made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 113.1,
+        "category": "Toys"
+      },
+      {
+        "id": 159,
+        "title": "Cute Toy Truck",
+        "description": "A cute toy truck made for everyday use. Its simple design adds a practical touch to your home.",
+        "price": 12.24,
+        "category": "Toys"
+      },
+      {
+        "id": 280,
+        "title": "Cute Toy Truck",
+        "description": "Bring home a cute toy truck with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 10.69,
+        "category": "Toys"
+      },
+      {
+        "id": 350,
+        "title": "Cute Toy Truck",
+        "description": "Bring home a cute toy truck with a clean finish and comfortable feel. It is a reliable everyday essential.",
+        "price": 100.67,
+        "category": "Toys"
+      },
+      {
+        "id": 162,
+        "title": "Modern Puzzle",
+        "description": "This modern puzzle is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 83.77,
+        "category": "Toys"
+      },
+      {
+        "id": 133,
+        "title": "Modern Puzzle",
+        "description": "This modern puzzle is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 13.69,
+        "category": "Toys"
+      },
+      {
+        "id": 161,
+        "title": "Cosy Puzzle",
+        "description": "This cosy puzzle is easy to use and built for busy days. A thoughtful pick for gifting or keeping.",
+        "price": 82.28,
+        "category": "Toys"
+      }
+    ]
+  },
+  {
+    "query_id": "q30",
+    "query": "camping tents",
+    "category": "sports",
+    "required_tags": [
+      "camping"
+    ],
+    "rule_source": "required_tags+category",
+    "candidates": [
+      {
+        "id": 3,
+        "title": "Cloud Nap Cover",
+        "description": "A gentle cover for restful naps with a brushed, pillowy texture.",
+        "price": 28.5,
+        "category": "Bedding"
+      },
+      {
+        "id": 2,
+        "title": "Plush Fleece Throw",
+        "description": "A warm layer for chilly evenings, made from fluffy fleece.",
+        "price": 24.99,
+        "category": "Bedding"
+      },
+      {
+        "id": 4,
+        "title": "Soft Lounge Cardigan",
+        "description": "A relaxed, light layer for quiet mornings and cool rooms.",
+        "price": 29.0,
+        "category": "Apparel"
+      }
+    ]
+  }
+]
