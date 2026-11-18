@@ -1,0 +1,31 @@
+query_id,query,scored,category,category_exists,fail_soft_check,keyword_count,keyword_precision_at_5,keyword_hit_at_5,keyword_stemming_count,keyword_stemming_precision_at_5,keyword_stemming_hit_at_5,semantic_count,semantic_precision_at_5,semantic_hit_at_5,hybrid_count,hybrid_precision_at_5,hybrid_hit_at_5
+q01,soften the sofa with a snug layer,True,Home Decor + Bedding,True,,14,0.4,1,2,0.2,1,25,0.0,0,32,0.4,1
+q02,sturdy organisers under $30,False,Home Decor + Bedding,True,,4,,,4,,,4,,,5,,
+q03,make a youngster's corner cheerful,True,Toys,True,,3,0.2,1,3,0.2,1,5,0.2,1,5,0.2,1
+q04,compact travel clothes,True,Apparel,True,,0,0.0,0,0,0.0,0,35,0.2,1,35,0.2,1
+q05,warm winter layers,True,Apparel,True,,0,0.0,0,1,0.2,1,14,0.2,1,14,0.2,1
+q06,breathable gym clothing,True,Apparel,True,,0,0.0,0,0,0.0,0,34,0.0,0,34,0.0,0
+q07,soft plush gift ideas,True,Toys,True,,12,0.2,1,11,0.2,1,8,0.2,1,12,0.2,1
+q08,durable toys for kids,True,Toys,True,,3,0.2,1,13,0.0,0,17,0.2,1,18,0.4,1
+q09,keep a little one occupied on a trip,True,Toys,True,,5,0.0,0,5,0.2,1,16,0.2,1,19,0.2,1
+q10,stackable kitchen storage,True,Kitchen,True,,0,0.0,0,0,0.0,0,9,0.0,0,9,0.0,0
+q11,cute ceramic gifts,True,Kitchen,True,,3,0.2,1,6,0.2,1,6,0.2,1,8,0.2,1
+q12,healthy cooking helpers,True,Kitchen,True,,0,0.0,0,0,0.0,0,11,0.2,1,11,0.2,1
+q13,portable charging gear,True,Electronics,True,,0,0.0,0,0,0.0,0,26,0.4,1,26,0.4,1
+q14,durable desk setup,True,Electronics,True,,13,0.2,1,13,0.2,1,15,0.2,1,15,0.2,1
+q15,small wireless gifts,True,Electronics,True,,0,0.0,0,3,0.0,0,13,0.2,1,13,0.2,1
+q16,a pampering ritual away from home,True,Beauty,True,,8,0.0,0,5,0.0,0,1,0.0,0,9,0.0,0
+q17,calming self care gifts,True,Beauty,True,,0,0.0,0,3,0.0,0,10,0.2,1,10,0.2,1
+q18,daily beauty under $20,False,Beauty,True,,0,,,0,,,1,,,1,,
+q19,something nourishing to start the day,False,grocery,False,,0,,,0,,,0,,,0,,
+q20,small travel food box,False,grocery,False,,0,,,0,,,0,,,0,,
+q21,wholesome gifts,False,grocery,False,,0,,,0,,,0,,,0,,
+q22,grippy gym equipment,False,sports,False,,0,,,0,,,0,,,0,,
+q23,weather ready winter gear,False,sports,False,,0,,,0,,,0,,,0,,
+q24,lightweight active travel kit,False,sports,False,,0,,,0,,,0,,,0,,
+q25,cosy home thows,True,Home Decor + Bedding,True,,15,0.0,0,15,0.0,0,11,0.0,0,20,0.0,0
+q26,something sturdy,True,Kitchen,True,,6,0.0,0,6,0.0,0,10,0.2,1,10,0.2,1
+q27,GIFT IDEAS,False,Toys,True,,0,,,5,,,5,,,5,,
+q28,warm,False,Apparel,True,False,0,,,0,,,20,,,20,,
+q29,printer ink cartridges,False,Electronics,True,False,0,,,0,,,19,,,19,,
+q30,camping tents,False,sports,False,,0,,,0,,,0,,,0,,
